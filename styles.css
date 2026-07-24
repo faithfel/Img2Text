@@ -74,7 +74,9 @@ input[type="file"]::file-selector-button {
 }
 
 #img2txt {
-    max-width: 35vw;
+    min-height: 10vh;
+    max-height: 20vh;
+    max-width: 75vw;
 }
 
 #box-container {
@@ -110,7 +112,7 @@ i {
 
 .div-container {
     min-width: 35vw;
-    max-width: 35vw;
+    max-width: 75vw;
     overflow-x: hidden;
     border-inline: 4px solid #ff0044;
     border-radius: 4px;
