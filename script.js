@@ -44,7 +44,7 @@ document.getElementById('download').addEventListener('click', () => { {
 
     const hiddenLink = document.createElement('a');
     hiddenLink.href = fileUrl;
-    hiddenLink.download = 'my-text-file.txt'; 
+    hiddenLink.download = 'img2txt.txt'; 
     hiddenLink.style.display = 'none';
 
     document.body.appendChild(hiddenLink);
